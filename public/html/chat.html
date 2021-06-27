@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/stylesheets/chat.css">
+    <script src="/javascripts/chat.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<button class="open-button" onclick="openForm()">Get Help</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <label for="msg"><b>Type your query here...</b></label>
+    <textarea class="que" placeholder="Type.." name="msg" required></textarea>
+    <button type="submit" class="btn" onclick="question()">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+</body>
+</html>
