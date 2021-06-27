@@ -18,7 +18,7 @@ function login()
            //localStorage.userdetails=result
            localStorage.setItem("username", result[0].username);
            localStorage.setItem("userid", result[0]._id);
-           window.location.href="/chat"
+           window.location.href="/login"
         },
         error: function ( error )
         {
