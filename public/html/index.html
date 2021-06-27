@@ -3,7 +3,11 @@
 <head>
   <title>Express</title>
   <meta name="google-site-verification" content="nfoc-JMRFSFUUpLhkbDYGWB2kf7R7TTsVL7-ouf_kjc" />
+  <meta name="google-signin-scope" content="profile email">
+  <meta name="google-signin-client_id" content="45569801381-fts5dptdem83mle65krsao74b89rq0hc.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="/javascripts/google.js"></script>
 </head>
 
 <body>
@@ -15,12 +19,11 @@
   <h1 class="head">DIET-OX</h1>
   
   <div class="centerbutton">
-    <!-- <button <a href="login.html">Sign-in </a> </button>
-    <button <a href="register.html">Sign-up </a> </button> -->
     <a href="/login" class="button">Login</a>
     <a href="/register" class="button">Sign-up</a>
-  
+    <div class="g-signin2" data-onsuccess=onSignIn() data-theme="dark"></div>
   </div>
+  
 </body>
 
 </html>
