@@ -1,5 +1,5 @@
 {
-  "name": "mini-project",
+  "name": "dietox1",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -17,5 +17,18 @@
     "jquery": "^3.6.0",
     "mongoose": "^5.12.14",
     "morgan": "~1.9.1"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhavaniSathi/MiniFinal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhavaniSathi/MiniFinal/issues"
+  },
+  "homepage": "https://github.com/BhavaniSathi/MiniFinal#readme",
+  "description": ""
 }
