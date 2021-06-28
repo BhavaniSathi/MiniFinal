@@ -10,15 +10,13 @@ function login()
             email:email,
             password:password
         },
-        
         success: function ( result )
         {
             console.log(result)
            console.log(result[0].username)
-           //localStorage.userdetails=result
            localStorage.setItem("username", result[0].username);
            localStorage.setItem("userid", result[0]._id);
-           window.location.href="/login"
+           window.location.href="/main"
         },
         error: function ( error )
         {

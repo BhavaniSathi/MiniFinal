@@ -1,4 +1,3 @@
-
 function data()
 {
     var height=document.getElementsByClassName("height")[0].value;
@@ -54,6 +53,7 @@ console.log(wei);
     var foo=localStorage.getItem('myfood');
     console.log(sta);
     console.log(foo);
+    
     if(foo=="Over-weight")
     {
         if(sta=="veg")
@@ -91,5 +91,3 @@ console.log(wei);
         
     }
 }
-
-

@@ -62,5 +62,8 @@ router.get('/uv', function(req, res, next) {
   res.sendFile(uv);
 });
 
-
+router.get('/blog', function(req, res, next) {
+  let blog=path.join(__dirname,"/../public/html/blog.html");
+  res.sendFile(blog);
+});
 module.exports = router;
